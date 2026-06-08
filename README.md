@@ -39,7 +39,7 @@ MindMate bridges this gap by offering an **always-available, confidential, and i
 
 ## 📊 Use Case Diagram
 
-![MindMate Use Case Diagram](https://github.com/YOUR-USERNAME/MindMate/blob/main/assets/usecase_diagram.png)
+![MindMate Use Case Diagram](https://github.com/Akil-Ai/Mind-Mate/blob/main/Usecase%20diagram.png)
 
 > *Detailed Use Case Diagram showing all major features and interactions*
 
