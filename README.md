@@ -61,6 +61,56 @@ MindMate bridges this gap by offering an **always-available, confidential, and i
 | Settings                 | Privacy controls & theme customization |
 
 ---
+## 🗄️ Database Design
+
+### Entity Relationship (ER) Diagram
+
+![MindMate ER Diagram](https://github.com/YOUR-USERNAME/MindMate/blob/main/assets/er_diagram.png)
+
+*(Upload the generated ER Diagram image here)*
+
+### Firestore Database Structure (NoSQL)
+
+```json
+Collections:
+
+1. users
+   ├── {userId}
+         ├── name
+         ├── email
+         ├── age
+         ├── gender
+         ├── createdAt
+         ├── streakCount
+         └── lastMoodDate
+
+2. moodLogs (Sub-collection under user)
+   ├── {logId}
+         ├── moodScore (1-5)
+         ├── moodEmoji
+         ├── note
+         ├── timestamp
+
+3. journalEntries (Sub-collection under user)
+   ├── {entryId}
+         ├── content
+         ├── sentiment (Happy/Anxious/Sad/Stressed/Neutral)
+         ├── confidence
+         ├── timestamp
+
+4. insights (Sub-collection under user)
+   ├── {insightId}
+         ├── title
+         ├── description
+         ├── type (weekly/monthly)
+         ├── timestamp
+
+5. helplines (Global collection)
+   ├── {id}
+         ├── name
+         ├── number
+         ├── description
+---
 
 ## 🛠️ Technologies Used
 
