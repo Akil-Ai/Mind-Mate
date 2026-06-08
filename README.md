@@ -70,7 +70,7 @@ MindMate bridges this gap by offering an **always-available, confidential, and i
 *(Upload the generated ER Diagram image here)*
 
 ### Firestore Database Structure (NoSQL)
-
+```json
 Collections:
 
 1. users
@@ -110,7 +110,7 @@ Collections:
          ├── number
          ├── description
 ---
-
+```
 ## 🛠️ Technologies Used
 
 - **Frontend**: Flutter (Cross-platform)
