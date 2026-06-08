@@ -65,13 +65,12 @@ MindMate bridges this gap by offering an **always-available, confidential, and i
 
 ### Entity Relationship (ER) Diagram
 
-![MindMate ER Diagram](https://github.com/YOUR-USERNAME/MindMate/blob/main/assets/er_diagram.png)
+![MindMate ER Diagram](https://github.com/Akil-Ai/Mind-Mate/blob/main/er%20diagram.png)
 
 *(Upload the generated ER Diagram image here)*
 
 ### Firestore Database Structure (NoSQL)
 
-```json
 Collections:
 
 1. users
